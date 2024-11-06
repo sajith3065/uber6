@@ -1,0 +1,502 @@
+/* left side -1 */
+.left-row-1{
+    background-color: rgba(226, 219, 199, 0);
+    height: 600px;
+    width: 550px;
+}
+
+/* right side-1 */
+.right-row-1{
+    height: 600px;
+    width: 550px;
+    background-color: rgba(191, 216, 216, 0);
+
+}
+
+/* Total first Row */
+.content-row{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0);
+    
+}
+
+/* heading left row */
+.left-row-1-heading{
+    font-family: Roboto,Arial;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 60px;
+}
+
+
+/* Ride package button */
+.ride-package-button{
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    align-items: center;
+   margin-bottom: 40px;
+    
+}
+
+/* car button icon */
+.car-button-icon{
+    margin-right: 120px;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: rgb(231, 228, 228);
+    font-size: 20px;
+    margin-bottom: 5px;
+   cursor: pointer;
+}
+
+/* car button name */
+.car-button-name{
+    font-family: Roboto,Arial;
+    padding: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* pacakage icon */
+.package-button-icon{
+    font-size: 25px;
+    padding: 12px;
+    /* margin-bottom: 0px; */
+    cursor: pointer;
+    margin-left: 14px;
+   
+}
+
+.package-button-name{
+    font-weight: 600;
+    color: rgb(86, 86, 86);
+    /* font-size: 18px; */
+    font-family: Roboto,Arial;
+    padding: 7px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* input box -1 */
+.input-boxes-1{
+    display: flex;
+    flex-direction: column;
+        position: relative;
+}
+
+/* font awesome icon-picup */
+#pick-icon{
+    font-size: 23px;
+    position: absolute;
+    left: 11px;
+    top: 13px;
+
+}
+/* font awesome icon-destination */
+#drop-icon{
+    font-size: 23px;
+    position: absolute;
+    left: 11px;
+    top: 76px;
+}
+
+/* input boxes 2 horizontal */
+.input-boxes-2{
+    position: relative;
+}
+
+/* calendar icon fontawesome */
+#calender-icon{
+    font-size: 15px;
+    position: absolute;
+    left: 10px;
+    top: 17px;
+}
+
+/* clock icon fontawesome */
+#clock-icon{
+    font-size: 15px;
+    position: absolute;
+    top: 17px;
+    left: 235px;
+
+}
+
+/* Down arrow */
+#down-arrow{
+    font-size: 15px;
+    position: absolute;
+    top: 17px;
+    left: 420px;
+}
+
+/* vertical line */
+.vertical-line{
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+
+
+
+/* pickup-drop boxes */
+.pick-drop-boxes{
+   
+    margin-bottom: 13px;
+    width: 450px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 18px;
+    padding-left: 45px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(243, 243, 243)
+   
+}
+
+/* date boxes */
+.date{
+    margin-bottom: 13px;
+    height: 50px;
+    width: 224px;
+    border-radius: 7px;
+    font-size: 18px;
+    padding-left: 35px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(243, 243, 243)
+}
+
+
+/* button price */
+.price-button{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto,Arial;
+    transition: background-color 0.15s;
+}
+
+.price-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+
+
+/* Map image */
+.right-row-1 img{
+   width: 500px;
+    height: 520px;
+    margin-top: 30px;
+   border-radius: 5px;
+}
+
+
+
+
+/* ---------------------------------------- */
+/* 3 boxes */
+
+/* Total container */
+.center-container{
+    border: 1px solid blacl;
+    width: 100%;
+    height: 400px;
+    padding: 64px;
+}
+
+/* box inside total */
+.suggestion-container{
+    width: 1100px;
+    height: 290px;
+    
+
+}
+
+/* title-suggestion */
+.container-title p{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: Roboto,Arial;
+    margin-bottom: 60px;
+}
+
+
+/* 3 box container */
+.box-containers{
+    display: flex;
+    column-gap: 20px;
+    
+
+}
+
+/* 3 boxes common */
+.three-boxes{
+   flex: 1;
+   border-radius: 5px;
+   height: 170px;
+   padding: 13px;
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+/* box description */
+.box-description{
+    width: 180px;
+    height: 142px;
+}
+
+/* box image */
+.box-image{
+    height: 142px;
+    width: 145px;
+}
+
+/* box descrition headin */
+.box-description-heading{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* box descrition */
+.box-note{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 7px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* box- button */
+.box-button{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+}
+
+.box-button:hover{
+    background-color: rgb(228, 226, 226);
+}
+
+
+
+/* ============================== */
+/* Second and third Row */
+
+/* image coloum */
+.row-images{
+    height: 600px;
+    width: 500px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   /* border: 1px solid black; */
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+/* image size */
+.row-images img{
+    width: 500px;
+    height: 550px;
+    object-fit: fill;
+
+}
+
+/*Row headings  */
+.row-headings p{
+font-size: 60px;
+font-weight: 600;
+line-height: 70px;
+margin-top: 70px;
+margin-left: 50px;
+}
+
+/* row paragraphs */
+.row-paragraphs p{
+    margin-top: 30px;
+    margin-left: 50px;
+   line-height: 25px;
+   font-size: 18px;
+   color: rgb(57, 57, 57);
+}
+
+
+/* button-link container */
+.button-link-container{
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+
+
+/* Button- Get started */
+.button-link-container button{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    
+}
+
+.button-link-container button:hover{
+    background-color: rgb(67, 66, 66);
+}
+
+.button-link-container a{
+font-size: 20px;
+text-decoration: none;
+position: relative;
+display: inline-block;
+color: black;
+font-family: Roboto,Arial;
+}
+
+.button-link-container a::after{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(152, 151, 151);
+}
+
+/* ============================== */
+/* Fourth Row */
+
+/*  different Heading  */
+.row-headings-last p{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+
+/* =============================== */
+
+
+
+/* Qr-- contaniner */
+
+/* Total */
+.last-container{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(241, 241, 241);
+   display: flex;
+   justify-content: center;
+    align-items: center;
+   padding: 50px 131px;
+
+}
+
+/* inside container */
+.app-container{
+    width: 1000px;
+    height: 300px;
+
+}
+
+/* heading */
+.app-container p{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+
+
+}
+
+
+/* qr app  div*/
+.qr-app{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+/* Qr code containers */
+.qr-app-details{
+    background-color: white;
+    height: 200px;
+    width: 480px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+/* images QR */
+.qr-image img{
+    height: 150px;
+    width: 150px;
+    margin-left: 30px;
+    cursor: pointer;
+    
+}
+
+/* Qr code Descrition */
+.qr-description{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+
+
+
+}
+
+/* qr- heading */
+.qr-description h2{
+    font-family: Roboto,Arial;
+    line-height: 30px;
+    margin-bottom: 7px;
+}
+
+/* qr paragraph */
+.qr-description p{
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
